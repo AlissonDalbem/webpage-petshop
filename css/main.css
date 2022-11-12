@@ -1,0 +1,226 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(80, 3, 99);
+}
+
+header {
+  background-color: rgba(100, 2, 156, 0.534);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: auto;
+}
+
+
+footer {
+  position: fixed;
+  height: 50px;
+  background-color: rgba(100, 2, 156, 0.534);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: rgb(231, 231, 231);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.cabecalho {
+  display: inline-block;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: auto;
+}
+
+
+.rodape {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.rd {
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+}
+
+.logo {
+  display: inline-block;
+  
+
+}
+.info {
+}
+
+.video {
+  width: 520px;
+  height: 320px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.tabela {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+}
+
+td {
+  border-bottom: 2px solid rgb(77, 76, 76);
+  padding: 30px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-right: 72.5px;
+}
+
+.roxo {
+  background-color: rgba(100, 2, 156, 0.534);
+  color: #FFB100;
+}
+
+.logofoto {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.azulclaro {
+  background-color: rgba(190, 192, 192, 0.534);
+}
+
+.cima {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PT {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(231, 231, 231);
+}
+
+.racoes {
+  display: inline-block;
+  justify-content: right;
+}
+
+.dogracao {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  border: solid #FFB100;
+  border-radius: 15px;
+}
+
+.gatoracao {
+  width: 300px; 
+  height: 300px;
+  margin-left: 200px;
+  border: solid #FFB100;
+  border-radius: 15px;
+}
+
+.promo {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 160px;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFB100
+}
+
+.bf {
+  border-bottom: 12px double #000000;
+  
+}
+
+/* CSS DA PARTE DO LOIGN */
+
+input {
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16pt; 
+}   
+
+.loginform {
+  width: 450px;
+  margin: 150px auto; 
+}
+
+#login {
+  width: 450px;
+  background-color: rgba(100, 2, 156, 0.534);
+}
+
+#acesso {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px ;
+  color: #FFB100;
+}
+
+#nome {
+  background-color: rgb(255, 255, 255);
+}
+
+#senha {
+  background-color: rgb(255, 255, 255);
+}
+
+/* CSS DA PARTE DO QUEM SOMOS*/
+
+.textoqm {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  color: #FFB100;
+  border-right: solid rgb(255, 255, 255);
+  border-radius: 8.5px;
+  padding: 8px;
+}
+
+.divqm {
+  width: 47%;
+  height: 47%;
+  display: inline-block;
+}
+
+.fotoqm {
+display: inline-block;
+width: 50%;
+height: 50%;
+text-align: right;
+}
+
+.imgqm {
+  height: 80%;
+  width: 80%;
+}
